@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Métodos de Pagamento</title>
+    <link rel="stylesheet" href="./assets/css/met.css">
+    <script src="./assets/script/met.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Métodos de Pagamento</h1>
+        <div class="pagamento">
+            <div class="metodo" onclick="redirectTo('in.html');">
+                <h2>Crédito</h2>
+            </div>
+            <div class="metodo" onclick="redirectTo('in.html');">
+                <h2>Débito</h2>
+            </div>
+            <div class="metodo" onclick="redirectTo('confirm.html');">
+                <h2>Pix</h2>
+            </div>
+        </div>
+        <div id="selecionado" class="selecionado">
+            <p>Nenhum método selecionado.</p>
+        </div>
+    </div>
+    <br><br>
+</body>
+</html>
